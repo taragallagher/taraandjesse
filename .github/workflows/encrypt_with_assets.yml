@@ -42,7 +42,7 @@ jobs:
           staticrypt index.html -p ${{ secrets.DECRYPTION_PASSPHRASE }} --short
           --template "password_template.html"
           --template-title "Beaver Island 2025 &#129451;"
-          --template-button "&#4d5876;"
+          --template-button "&#8594;"
           --template-color-primary "#113e9f"
           --template-color-secondary "#f1f1f3"
       - name: Clean up
