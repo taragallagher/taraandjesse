@@ -1,0 +1,4 @@
+exclude:
+  - main
+  - assets/
+  - embed.py
