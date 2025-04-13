@@ -41,11 +41,10 @@ jobs:
         run: >
           staticrypt index.html -p ${{ secrets.DECRYPTION_PASSPHRASE }} --short
           --template "password_template.html"
-          --template-title "Login"
-          --template-instructions "This is a test website, use the password 'test' to enter."
-          --template-button "&#8594;"
+          --template-title "Beaver Island 2025 &#129451;"
+          --template-button "&#4d5876;"
           --template-color-primary "#113e9f"
-          --template-color-secondary "#e4e4e4"
+          --template-color-secondary "#f1f1f3"
       - name: Clean up
         run: |
           mv encrypted/index.html index.html
@@ -55,7 +54,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "encrypted files"
+          git commit -m "yeehaw encrypted files"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
