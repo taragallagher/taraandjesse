@@ -1,7 +1,6 @@
 # Tara and Jesse
-## Beaver Island 2025
-
- https://taragallagher.github.io/taraandjesse/
+Wedding adventure organizing!
+https://taragallagher.github.io/taraandjesse/
  
 ## Credits
 
