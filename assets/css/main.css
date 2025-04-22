@@ -20,3 +20,15 @@ body {
 .custom-header:hover {
   color: #495774; /* hover color */
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #8692a8;
+}
+
+a:hover {
+  color: #495774; /* hover color */
+}
